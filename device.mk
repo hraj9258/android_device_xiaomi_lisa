@@ -64,8 +64,8 @@ TARGET_SCREEN_WIDTH := 1080
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/qcom-caf/bootctrl \
-    vendor/qcom/opensource/commonsys-intf/display
+    hardware/qcom/bootctrl \
+    vendor/qcom/opensource/display-commonsys-intf/
 
 # Update engine
 PRODUCT_PACKAGES += \
